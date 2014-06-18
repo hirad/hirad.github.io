@@ -14,7 +14,7 @@ But with experience, I've learned that even when this does happen, it is within 
 
 Today 3 negative things happened: 
 
-- an unpleasant meeting with a problematic client, that made it clear I had to walk away from their business.
+- an unpleasant meeting with a client, that made it clear I had to walk away from their business.
 
 - a major rejection of one of my projects from an important customer, for an incredibly unreasonable concern.
 
@@ -34,7 +34,7 @@ When am I going to meet another cool girl?
 
 My mind was in full negativity mode, but I was also trying to find a way to be productive without needing to think too hard. I realized I had an episode of the [Tim Ferriss Podcast](https://itunes.apple.com/ca/podcast/the-tim-ferriss-show/id863897795?mt=2) waiting for me on my iPhone. The title of the episode was "The 9 Habits to Stop Now -- The Not-To-Do List". As I started listening to it, I realized that there were a lot of important things that I have improved over the past little while, but also that there was still a lot of room for improvements. 
 
-Firing this client was a decision that I knew was coming but kept avoiding. Now it was unavoidable. This was in every way a good thing. In one fell swoop, I'd stop a number of unproductive habits caused by a distracting client who was the source much bigger hassle than their invoices justified. This improved my mood a bit. Thanks, Tim.
+Walking away from this client was a decision that I knew was coming but kept avoiding. Now it was unavoidable. This was in every way a good thing. In one fell swoop, I'd stop a number of unproductive habits caused by a distracting client who caused more than their fair share of hassle. This improved my mood a bit. Thanks, Tim.
 
 After that, I started listening to another episode - an interview with Joshua Waitzkin - that I had half listened to before. This was an even more intimate discussion with an incredibly remarkable person. I heard new perspectives on topics that I had thought about a lot ([like this one](/blog/2014/03/10/attachment-to-failure/)), but also opened my mind up to so many incredible challenges still ahead (which I'll talk about in the next post). And it made me ashamed that I was so worked up from my petty little problems. I'm not bad at a lot of things, but I'm far from world-class in anything. There are much bigger problems I'm gonna have to tackle. And all these remarkable people went through the same struggles. There they are, sharing those stories and lessons with the world. Thanks, Joshua & Tim.
 
