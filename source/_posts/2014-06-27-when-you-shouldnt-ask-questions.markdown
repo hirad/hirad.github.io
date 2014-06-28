@@ -1,0 +1,39 @@
+---
+layout: post
+title: "When You Shouldn't Ask Questions"
+date: 2014-06-27 09:35:25 -0700
+comments: true
+categories: 
+---
+
+The book I'm reading at the moment is *[How to Read a Book](http://www.amazon.com/How-Read-Book-Intelligent-Touchstone/dp/0671212095)*. It is 426 pages of instructions on how to get the most out of books: how to pinpoint the core concepts, how to make sense of the terminology, etc. It is valuable for more than just books. What you really learn from it is *How to Pay Attention Analytically* ("be mindful", in other words). For example, think of the last book you read. Can you tell me, in one sentence, what the purpose of the book was? Can you describe what techniques the author uses to communicate that message? Do you know why the contents were broken up the way they were? Perhaps most importantly, did reading the book feel exciting - like you were solving a puzzle - or did it feel passive, like watching TV? 
+
+Paying attention is something we're not very good at. Our minds constantly wander. Like developing a [producer mindset](/blog/2014/06/17/being-a-producer-vs-consumer/) where the default is that of a consumer, we have to develop an active-learner mindset to replace one of passive learning. The problem is that, for most of us, twelve years of schooling have taught us to be passive learners. We showed up to class everyday and it was someone else's job to put things in our heads. Outside of any structured learning environment, however, that mechanism breaks down, and the onus is on us to work hard for our own learning.
+
+The way we do this is by learning to pay close attention to what is going on in any learning environment we find ourselves in, be it reading a book or taking a lesson of salsa. For me, the biggest epiphany on this front (like many others) came through practicing Aikido. Physical activities, specially martial arts, are one of the toughest domains for cultivating the learner mindset. The reason is that once you get comfortable moving your limbs around in a motion that resembles the teacher's, it is easy to think you're done. 
+
+If I ask you to throw a jab at me, you immediately know how to do it because you've seen it so many times before. *Anyone* who has seen boxing knows how to throw a jab. Would you consider them boxers because of it? And yet, when people take martial arts lessons, they stop at exactly the same point of learning: they watch the teacher, and once they can mimic his moves, they feel they've already accomplished their goal, zone out, and stop learning. Just like the person who "knows" how to throw a jab because he has watched boxing, they have only copied an empty shape of the movement without any effectiveness. 
+
+I've seen the same thing in beginner salsa lessons, where people take a really long time just to learn the order of the steps that the instructor is showing (because they're not paying attention). Once they get the footwork down, they think they're dancing salsa, even though filming them dancing right beside the instructor would show immediately that having the same footwork does not produce the same elegant dance.
+
+How do we stop ourselves from falling into this trap? How do we ensure that we're actually learning deeply?
+
+The book provides actionable steps for reading a book, and the steps are meant to help you pay attention and be analytical. One of the important steps provided is to "come to terms with the author". What this means is that you should understand the words and phrases that the author uses in the same sense that author means them. Otherwise, ambiguity will stop you from understanding the full meaning of the book's argument. This paragraph of the book popped out at me:
+
+{% blockquote How to Read a Book %}
+Just look at the word "communication" for a moment. Its root is related to the word "common". We speak of a community as a group of people who have something in common. Communication is an effort on the part of one person to share something with another person (or with an animal or a machine): his knowledge, his decisions, his sentiments. It succeeds only when it results in a common something, such as an item of information or knowledge that two parties have.
+{% endblockquote %} 
+
+This is *exactly* the point where learning something intellectual and learning an art differ from each other. When you are learning an art (painting, martial art, or anything else that requires self-discipline and control), it is very difficult, if not impossible, to come to terms with your teacher. In this domain, there is very little "in common" between the teacher and the student. 
+
+(Note how I define "art" above. I refer to anything that requires doing by feel - as opposed to an intellectual exercise - as an "art". This is a perfect example of how you have to come to terms with an author in order to get his meaning).
+
+Imagine you wanted to learn how to paint, and the lesson was drawing a circle. You watch your teacher draw perfect circles. You know what a circle is and you know the motion you have to make to draw it. But can you? No. Why? Because that knowledge is not enough. The feeling is important. The teacher can start giving you advice that will be helpful - things like: hold the pencil in this way, keep your elbow down, etc. But the teacher **can't** make you draw a circle because words don't convey feeling. In this sense, the most crucial part of what the teacher would want to convey (how to draw the circle) is inherently unconveyable because words can't build the common feeling. 
+
+This is the reason why, when I'm practicing Aikido, I get annoyed at people who have some experience but keep asking questions. When you are in a domain where you cannot have common ground with the teacher, you also cannot have communication with the teacher. No matter how many times you ask the teacher about drawing circles, you will not learn it until you discover the feeling of controlling your arm in a way that can draw that circle. 
+
+Unlike reading a book, where you must come to terms with the author before you can understand what (s)he is saying, you come to terms with an art teacher as part of the learning process. The more you learn the more you come to terms. The words of an art teacher only make sense in hindsight. 
+
+If you have a good art teacher, (s)he will provide you with a learning framework. He will give you exercises and drills that simplify the higher level concepts in the art. They are designed to lead you to the feeling. The best thing you can do as an art student is to put your focus on these exercises and drills. Listen to how the teacher tells you you should do them and then repeat them endlessly. At the beginning you may not even understand how the drills are helping you to learn the art. But following them will help you come to terms with the teacher... and thus learn the art. 
+
+If you are learning something in this domain, and you find yourself needing to incessantly ask questions, you're probably focusing your efforts on the wrong thing and wasting your time. Often, this desire to ask questions when you should be following drills is an early indicator of a quitter. You're escaping the hard work that goes into learning by putting effort into something that makes you feel like you're "practicing" but that doesn't involve the same amount of effort as practicing. This never gets results. Reality always catches up with people who choose this path and don't correct it, and eventually, they realize that the time they spent in "practice" has not gotten them anywhere. They quit the art and find a different muse to waste their time on. These people would be better off just watching reality TV.
