@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Form vs Flash"
+date: 2014-12-14 18:14:32 -0800
+comments: true
+categories: essays
+---
+
+About a month ago, I started taking lessons in West Coast Swing after some encouragement from a few friends. When I showed up for my first lesson, I instantly knew I'd love this dance. It's all about the two people maintaining a strong connection, with the leader manipulating the follower's momentum to move her around. In other words, it's just like Aikido, which is to be expected: human body mechanics are the same.
+
+But to me, the most interesting observation was that a dance class suffers more or less from the same problems I've observed in the dojo for years:
+
+<!-- More -->
+
+- **People are never satisified with the basics, even when basics are their only salvation**. In the dojo, even the skinniest of people forego hard work on their foundations and instead make themselves believe that they're really strong (unfortunately, in a cooperative learning environment, such delusions are possible). They put on all sorts of pretenses (usually subconsciously) where they try to *look* like their technique is really strong. To me, this is exactly like a 5-year-old who things he can draw. He is totally convinced that the scribbles resemble something real, but his fundamental lack of motor skills dooms his effort. The same tendency applies to dance: I've danced with women who try to do really fancy stylizations - moves that are visually appealing and that might look "advanced" to the untrained eye. However, while they do this, their arms are completely limp - they have no connection to their partner. In a dance that is predicated on connection, this is a problem. Stylizations are necessary, of course, if you're good enough to do them. Usually, when you think you're good enough, that is your ego trying to tell itself a magnificent story about how great you are.  
+- **People love teaching others as a means of feeling better about themselves**. At some point during my first dance class, one student - a middle-aged woman - started telling her confused partner about the footwork that he was supposed to do. Their conversation was quickly interrupted by the instructor: "If you want to teach him how to do it, perhaps you'd like to come to the center and tell everyone so we can all benefit?" She proceeded to explain that in this class, she's the only one that does the teaching. The middle-aged woman was fuming, but she shut up. My respect for the instructor skyrocketed. Unfortunately, that episode has not stopped other sorts of extraneous noise emitted from some of my fellow students who should ideally be silent. Another woman, for instance, likes to agree with everything that the instructor says and add in her own bit of wisdom on top. The instructor might show a method of recovering from a mistake and this lady chimes in with: "Yes, you really can do anything as long as you maintain the connection." Besides the fact that making comments like this is just rude, the problem is that I've danced with this lady... aaaand she has absolutely no connection whatsoever. She doesn't know what connection is. Her expression of wisdom is not only rude but also very stupid. She has not yet [come to terms](http://hirad.ca/blog/2014/06/27/when-you-shouldnt-ask-questions/) with the instructor. This is the stage where she should follow orders quietly. 
+
+Not surprisingly, both of these tendencies stem from a runaway ego. When you see them in someone else, they're merely incoveniences. But when you fall victim to them, you stand to lose a lot, including all the investment you have put into learning. 
+
+The best antidote to these all-too-common tendencies is to actively try to be boring. When given the choice between form or flash, always err with form. Success is often conditional on learning to recognize the lies your ego tells you. Almost always, you are better off focusing on the boring foundations of any skill for much longer than you think is neccessary. And always be wary of the desire to teach others. More often, this desire a selfish one, not an altruistic one. 

@@ -65,12 +65,17 @@ $border-style: 2px solid $secondary-text-color;
 
 .font-size-large {
   font-size: 28.405px;
-  font-size: 1.42rem;
+  font-size: 2.0rem;
+}
+
+.font-size-larger {
+  font-size: 32.0px;
+  font-size: 2.2rem;
 }
 
 .font-size-largest {
-  font-size: 38.319px;
-  font-size: 1.916rem;
+  font-size: 38.0px;
+  font-size: 2.5rem;
 }
 
 .margin-bottom-large {
@@ -156,6 +161,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   @extend .sans-serif-font-bold;
   text-rendering: optimizeLegibility;
+  margin-bottom: 15px;
 }
 
 a {
@@ -374,9 +380,19 @@ body {
     }
     
     h2 {
+      @extend .font-size-larger;
+      @extend .sans-serif-font;
+      color: $secondary-text-color;
+      margin-bottom: 5.0px;
+      margin-bottom: 0.2rem;
+    }
+
+    h3 {
       @extend .font-size-large;
       @extend .sans-serif-font;
       color: $secondary-text-color;
+      margin-bottom: 5.0px;
+      margin-bottom: 0.2rem;
     }
   }
   
@@ -562,11 +578,33 @@ article {
   }
   
   h2 {
+    @extend .font-size-larger;
+    margin-top: 52.358px;
+    margin-top: 2.618rem;
+    margin-bottom: 9.046px;
+    margin-bottom: 0.452rem;
+    text-align: left;
+  }
+
+  h3 {
     @extend .font-size-large;
     margin-top: 52.358px;
     margin-top: 2.618rem;
     margin-bottom: 9.046px;
     margin-bottom: 0.452rem;
+    text-align: left;
+  }
+
+  h4 {
+    @extend .sans-serif-font-bold;
+    font-size: 30px;
+    text-align: left;
+  }
+
+  h5 {
+    @extend .sans-serif-font-bold;
+    font-size: 22px;
+    text-align: left;
   }
   
   ul, ol {

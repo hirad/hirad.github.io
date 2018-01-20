@@ -3,7 +3,7 @@ layout: post
 title: "Dabbling Vs. Boiling the Water"
 date: 2014-03-09 21:04:54 -0700
 comments: true
-categories: 
+categories: essays
 ---
 
 One of the (many) benefits of practicing one skill repeatedly and over a really long time is that in the process you get to observe a lot of people who fail and succeed. You start noticing patterns on what works and what doesn't. 
@@ -11,6 +11,8 @@ One of the (many) benefits of practicing one skill repeatedly and over a really 
 For me, the skill I've been practicing for a long time is [Aikido](http://en.wikipedia.org/wiki/Yoshinkan) but the same principles apply whether you're talking about playing the piano or working on your social skills. 
 
 In Aikido, as in almost all other martial arts, there are a handful of students who are serious practitioners and thousands of students who are dabblers - people who think practicing the martial art is a good way to fill idle time, move their body around, and maybe socialize a bit.
+
+<!--more-->
 
 The person who thinks of Aikido as a great way to get their body moving in their idle time will see it as just another "hobby". This means it does not rank high on their priorities. They might spend years practicing it... but only one time per week. I've seen many practitioners who have been practicing this way for decades. After about 20 years, they assume what they're doing must be right and high level by the virtue of the length of time they've trained. Yet I've never seen a dabbler who was really good. If anything, the dabblers almost always look like beginners no matter how long they say they've been practicing. 
 

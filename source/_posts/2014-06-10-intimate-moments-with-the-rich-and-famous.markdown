@@ -3,7 +3,7 @@ layout: post
 title: "Intimate Moments with the Rich and Famous"
 date: 2014-06-10 22:30:02 -0700
 comments: true
-categories: 
+categories: essays
 ---
 
 We live in amazing times. 
@@ -11,7 +11,7 @@ We live in amazing times.
 Today, I had one of the worst days I've had in a long time. I like to think that I have learned a lot about controlling my own emotional state over the years, but every once in a while, I lose control, and a series of unfortunate events can really get to me. In the worst cases, it literally feels like getting punched in the stomach. 
 
 But with experience, I've learned that even when this does happen, it is within my control to just remain calm and let the negative wave pass through me. 
-
+<!--more-->
 Today 3 negative things happened: 
 
 - an unpleasant meeting with a client, that made it clear I had to walk away from their business.

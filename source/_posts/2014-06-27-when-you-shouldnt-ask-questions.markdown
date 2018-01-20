@@ -3,11 +3,11 @@ layout: post
 title: "When You Shouldn't Ask Questions"
 date: 2014-06-27 09:35:25 -0700
 comments: true
-categories: 
+categories: essays
 ---
 
 The book I'm reading at the moment is *[How to Read a Book](http://www.amazon.com/How-Read-Book-Intelligent-Touchstone/dp/0671212095)*. It is 426 pages of instructions on how to get the most out of books: how to pinpoint the core concepts, how to make sense of the terminology, etc. It is valuable for more than just books. What you really learn from it is *How to Pay Attention Analytically* ("be mindful", in other words). For example, think of the last book you read. Can you tell me, in one sentence, what the purpose of the book was? Can you describe what techniques the author uses to communicate that message? Do you know why the contents were broken up the way they were? Perhaps most importantly, did reading the book feel exciting - like you were solving a puzzle - or did it feel passive, like watching TV? 
-
+<!--more-->
 Paying attention is something we're not very good at. Our minds constantly wander. Like developing a [producer mindset](/blog/2014/06/17/being-a-producer-vs-consumer/) where the default is that of a consumer, we have to develop an active-learner mindset to replace one of passive learning. The problem is that, for most of us, twelve years of schooling have taught us to be passive learners. We showed up to class everyday and it was someone else's job to put things in our heads. Outside of any structured learning environment, however, that mechanism breaks down, and the onus is on us to work hard for our own learning.
 
 The way we do this is by learning to pay close attention to what is going on in any learning environment we find ourselves in, be it reading a book or taking a lesson of salsa. For me, the biggest epiphany on this front (like many others) came through practicing Aikido. Physical activities, specially martial arts, are one of the toughest domains for cultivating the learner mindset. The reason is that once you get comfortable moving your limbs around in a motion that resembles the teacher's, it is easy to think you're done. 

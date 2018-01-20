@@ -3,13 +3,13 @@ layout: post
 title: "Success Rule: Evolution Always Wins"
 date: 2014-04-25 11:29:04 +0200
 comments: true
-categories: 
+categories: essays
 ---
 
 When I tell people that I'm a programmer and I work in my own business, many times the response is something like "Oh! That's really cool! I've always wanted to do my own business, but I'm trying to come up with good ideas." This is something every entrepreneur has heard from friends or family. It demonstrates a flawed understanding of what it takes to be successful. 
 
 One of my favourite Persian sayings is "people think with their eyes". Be it an accomplished athlete, businessperson, or artist, we see successful people, our primitive brains build an association between that success and the person. We watch Tiger Woods win golf tournaments effortlessly and we watch Apple put out hit product after hit product... but there's something we never see:
-
+<!--more-->
 How much effort does it take to make something look effortless?
 
 {% pullquote %}

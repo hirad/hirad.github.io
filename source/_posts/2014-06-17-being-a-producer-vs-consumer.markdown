@@ -3,13 +3,13 @@ layout: post
 title: "Being a Producer vs. Consumer"
 date: 2014-06-17 07:08:19 -0700
 comments: true
-categories: 
+categories: essays
 ---
 
 When I was in high school, I was absolutely obsessed with computers. I'd walk into the computer books section of Chapters and think to myself "Gosh... it's gonna take me a long time to finish all these". I was always in a rush to read more. Back then I was not so concerned with how I spent my time, but I guess I didn't do so bad. 
 
 There was a problem tho... I *learned* a LOT but *did* very LITTLE. After years of learning and reading many, many books, I had nothing to show for it. I never made a single usable program or app. I started a lot of them, but I never finished. The problem wasn't that I was wasting my time - I was doing better than could be expected of my age - the problem was that I didn't know what it was to be a maker of things, a producer. It was all about taking in other people's works. I found it interesting, but I never had the volition to make useful stuff out of the knowledge. I was just obsessed with accumulating knowledge. 
-
+<!--more-->
 Recently, I did become very concerned about how I spent my time. It was a few months ago where I kept catching myself checking Facebook and Twitter on my phone repeatedly. It got to a point where I'd get kinda annoyed that people weren't posting interesting content fast enough to keep up with my pace of checking it. I was totally addicted to this external stimulus. It was time to change things up.
 
 Step one was to delete all social media apps from my phone. I was checking all the apps at least once/minute because checking just one was usually not enough. So out went Facebook, Twitter, and LinkedIn. But Buffer stayed - it's a one way channel where I can post things to social media without being innundated with endless feeds. After doing this, a period of annoyance followed, where I'd keep getting my phone out of my pocket and realize there was no reason for me to do it. After 1-2 weeks, I had kicked the habit, and the phone sat firmly in pocket unless I wanted to contact someone.

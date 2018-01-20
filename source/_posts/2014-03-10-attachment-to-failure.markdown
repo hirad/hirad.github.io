@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "attachment to failure"
+title: "Attachment to Failure"
 date: 2014-03-10 17:20:41 -0700
 comments: true
-categories: 
+categories: essays
 ---
 One subject that you're going to read a lot about on this blog is effective methods of learning skills. The most successful people are those who can reinvent themselves many times and adapt to change effectively. That means being able to learn new things quickly and efficiently.
 
 At least as far back as when I was a teenager (and maybe earlier), I remember being warned by older people that my capacity for learning would dwindle as I got older. I'm only 26 now, so I haven't fully verified this for myself, but I suspect the reason why learning new skills gets harder with age has little to do with age itself and more to do with other factors correlated with it. 
-
+<!--more-->
 At least one major factor correlated with age that impedes learning is the ego. Older people are more stubborn because they've had more time to build and reinforce their ego. But some younger people are just as egotistical, while some older people have dodged this trap.
 
 So how does the ego get in the way of learning?
