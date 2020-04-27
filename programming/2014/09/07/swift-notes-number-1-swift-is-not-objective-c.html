@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Swift Notes #1: Swift Is Not Objective-C | Hirad</title>
+<meta name="generator" content="Jekyll v3.8.6" />
+<meta property="og:title" content="Swift Notes #1: Swift Is Not Objective-C" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Over the summer, I&rsquo;ve been really busy trying to ship products for my startup. At the same time, I&rsquo;ve been teaching (part-time) a two-month-long iOS bootcamp at Lighthouse Labs, which involves preparing lecture material, homework exercises, etc. It&rsquo;s been a busy summer, and I haven&rsquo;t had a chance to play with Swift as much as I wanted to. So last week, a few of the Lighthouse Labs instructors and TAs got together for some dedicated Swift time. These are my notes about what I learned, while trying to implement Skip Wilson&rsquo;s challenge for TopCoder - a playground program to convert any number from -1 million to 1 million from a numerical representation to its english representation." />
+<meta property="og:description" content="Over the summer, I&rsquo;ve been really busy trying to ship products for my startup. At the same time, I&rsquo;ve been teaching (part-time) a two-month-long iOS bootcamp at Lighthouse Labs, which involves preparing lecture material, homework exercises, etc. It&rsquo;s been a busy summer, and I haven&rsquo;t had a chance to play with Swift as much as I wanted to. So last week, a few of the Lighthouse Labs instructors and TAs got together for some dedicated Swift time. These are my notes about what I learned, while trying to implement Skip Wilson&rsquo;s challenge for TopCoder - a playground program to convert any number from -1 million to 1 million from a numerical representation to its english representation." />
+<link rel="canonical" href="http://hirad.github.io/programming/2014/09/07/swift-notes-number-1-swift-is-not-objective-c.html" />
+<meta property="og:url" content="http://hirad.github.io/programming/2014/09/07/swift-notes-number-1-swift-is-not-objective-c.html" />
+<meta property="og:site_name" content="Hirad" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-09-07T13:01:04-07:00" />
+<script type="application/ld+json">
+{"url":"http://hirad.github.io/programming/2014/09/07/swift-notes-number-1-swift-is-not-objective-c.html","mainEntityOfPage":{"@type":"WebPage","@id":"http://hirad.github.io/programming/2014/09/07/swift-notes-number-1-swift-is-not-objective-c.html"},"description":"Over the summer, I&rsquo;ve been really busy trying to ship products for my startup. At the same time, I&rsquo;ve been teaching (part-time) a two-month-long iOS bootcamp at Lighthouse Labs, which involves preparing lecture material, homework exercises, etc. It&rsquo;s been a busy summer, and I haven&rsquo;t had a chance to play with Swift as much as I wanted to. So last week, a few of the Lighthouse Labs instructors and TAs got together for some dedicated Swift time. These are my notes about what I learned, while trying to implement Skip Wilson&rsquo;s challenge for TopCoder - a playground program to convert any number from -1 million to 1 million from a numerical representation to its english representation.","headline":"Swift Notes #1: Swift Is Not Objective-C","dateModified":"2014-09-07T13:01:04-07:00","datePublished":"2014-09-07T13:01:04-07:00","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://hirad.github.io/feed.xml" title="Hirad" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Hirad</a><p class="site-title">&nbsp;– Making the map match the territory</p><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about.html">About</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Swift Notes #1: Swift Is Not Objective-C</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2014-09-07T13:01:04-07:00" itemprop="datePublished">Sep 7, 2014
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>Over the summer, I&rsquo;ve been really busy trying to ship products for my startup. At the same time, I&rsquo;ve been teaching (part-time) a two-month-long iOS bootcamp at <a href="http://www.lighthouselabs.ca/">Lighthouse Labs</a>, which involves preparing lecture material, homework exercises, etc. It&rsquo;s been a busy summer, and I haven&rsquo;t had a chance to play with Swift as much as I wanted to.</p>
+
+<p>So last week, a few of the Lighthouse Labs instructors and TAs got together for some dedicated Swift time. These are my notes about what I learned, while trying to implement <a href="http://www.topcoder.com/challenge-details/30045372/?utmSource=SkipAllMighty&amp;utmCampaign=learnswift&amp;utmMedium=codechannel">Skip Wilson&rsquo;s challenge for TopCoder</a> - a playground program to convert any number from -1 million to 1 million from a numerical representation to its english representation. <!--more--></p>
+
+<p>My first idea on this was that in converting a number to text, it might be easier to treat the number as a string, so I started by looking for a decimal point in a numerical string. The numbers after the decimal point are easier to convert since you can just write them digit by digit (ie. &ldquo;some number <em>point</em> one two three&rdquo;).</p>
+
+<p>We need to determine whether a <code>String</code> contains a particular character. In Obj-C, we&rsquo;re used to using methods on <code>NSString</code> to do whatever we need to do with our string objects. Swift doesn&rsquo;t work that way. If you Cmd-click into <code>String</code>, you&rsquo;ll see that&hellip;</p>
+
+<p>a) It is a collection type. Collection types have elements accessible with a subscript. In String&rsquo;s case, its elements are instances of Character.</p>
+
+<pre><code>extension String : CollectionType {
+    struct Index : BidirectionalIndexType, Comparable, Reflectable {
+        func successor() -&gt; String.Index
+        func predecessor() -&gt; String.Index
+        func getMirror() -&gt; MirrorType
+    }
+    var startIndex: String.Index { get }
+    var endIndex: String.Index { get }
+    subscript (i: String.Index) -&gt; Character { get }
+    func generate() -&gt; IndexingGenerator&lt;String&gt;
+}
+</code></pre>
+
+<p>b) Nowhere does Swift&rsquo;s <code>String</code> struct provide a function to get the index of a particular character in the string, if it exists. Of course, in Objective-C&rsquo;s <code>NSString</code>, we have many a method on <code>NSString</code> that we could use for this.</p>
+
+<p>My first solution was to write something like this:</p>
+
+<pre><code>extension String {
+    func indexOfCharacter(c : Character) -&gt; String.Index.Distance? {
+       let length = countElements(self)
+       for var i = 0; i &lt; length; i++ {
+            let index = advance(self.startIndex, i)
+            let char = self[index]
+            if char == c { return distance(self.startIndex, index) }
+       }
+
+       return nil
+    }
+}
+</code></pre>
+
+<p>Writing this was way harder than it looks - it involved a lot of digging in the Swift header. I already knew about <code>advance(start:, n:)</code> from a previous experiment where I tried to get a substring from a Swift <code>String</code> type (see below). I had to find the <code>distance(start:,end:)</code> function as well. I don&rsquo;t remember how I found it (maybe through reading more StackOverflow answers).</p>
+
+<pre><code>func distance&lt;T : ForwardIndexType&gt;(start: T, end: T) -&gt; T.Distance
+</code></pre>
+
+<p>This demonstrates one of things that&rsquo;s a learning curve in Swift. There are generics, and the types can be <code>typealias</code>&rsquo;d to domain-specific names. That will make code much more readable in some senses, but it also means that sometimes you have to decipher what kind of thing you&rsquo;re dealing with. From the above declaration of the distance function, if you Cmd-Click into the <code>ForwardIndexType</code>, you&rsquo;ll see:</p>
+
+<pre><code>protocol ForwardIndexType : _ForwardIndexType {
+}
+</code></pre>
+
+<p><a href="http://en.wikipedia.org/wiki/Vermiform_appendix">Don&rsquo;t ask me why this is there</a>. But obviously, we need to keep digging, so we Cmd-Click into <code>_ForwardIndexType</code>. Voila, finally we see this:</p>
+
+<pre><code>protocol _ForwardIndexType : _Incrementable {
+    typealias Distance : _SignedIntegerType = Int
+    typealias _DisabledRangeIndex = _DisabledRangeIndex_
+}
+</code></pre>
+
+<p>A <code>Distance</code> is just an <code>Int</code>.</p>
+
+<p>Even up to this point, I&rsquo;ve started noticing a pattern. What I tried to do above with my extension to <code>String</code> was to shoehorn Swift&rsquo;s <code>String</code> type to act more like <code>NSString</code>, which I&rsquo;m used to. But it looks like the &ldquo;Swiftier&rdquo; way of doing things is to have global functions that act on generic types.</p>
+
+<p>c) <code>String</code> also has several different &ldquo;views&rdquo; such as <code>UTF8View</code> or <code>UnicodeScalarView</code>. These are subtypes of the <code>String</code> type (not sure yet if that&rsquo;s the right name for them):</p>
+
+<pre><code>extension String {
+    struct UTF8View : CollectionType, Reflectable {
+        struct Index : ForwardIndexType {
+            func successor() -&gt; String.UTF8View.Index
+        }
+        var startIndex: String.UTF8View.Index { get }
+        var endIndex: String.UTF8View.Index { get }
+        subscript (i: String.UTF8View.Index) -&gt; CodeUnit { get }
+        func generate() -&gt; IndexingGenerator&lt;String.UTF8View&gt;
+        func getMirror() -&gt; MirrorType
+    }
+    var utf8: String.UTF8View { get }
+    var nulTerminatedUTF8: ContiguousArray&lt;CodeUnit&gt; { get }
+}
+
+extension String {
+    struct UnicodeScalarView : Sliceable, SequenceType, Reflectable {
+        struct Index : BidirectionalIndexType, Comparable {
+            func successor() -&gt; String.UnicodeScalarView.Index
+            func predecessor() -&gt; String.UnicodeScalarView.Index
+        }
+        var startIndex: String.UnicodeScalarView.Index { get }
+        var endIndex: String.UnicodeScalarView.Index { get }
+        subscript (i: String.UnicodeScalarView.Index) -&gt; UnicodeScalar { get }
+        subscript (r: Range&lt;String.UnicodeScalarView.Index&gt;) -&gt; String.UnicodeScalarView { get }
+        struct Generator : GeneratorType {
+            mutating func next() -&gt; UnicodeScalar?
+        }
+        func generate() -&gt; String.UnicodeScalarView.Generator
+        func compare(other: String.UnicodeScalarView) -&gt; Int
+        func getMirror() -&gt; MirrorType
+    }
+}
+</code></pre>
+
+<p>From this, I noticed that <code>String</code> itself is not &lsquo;Sliceable&rsquo; - meaning you can&rsquo;t get substrings from it, unless you get one of the specific views. But one problem I found with the <code>Sliceable</code> protocol is that it defines the &ldquo;subslicing&rdquo; syntax this way:</p>
+
+<pre><code>protocol Sliceable : _Sliceable {
+    typealias SubSlice : _Sliceable
+    subscript (bounds: Range&lt;Self.Index&gt;) -&gt; SubSlice { get }
+}
+</code></pre>
+
+<p>So, if I wanted to get a substring from index 2 to 4, I&rsquo;d need something like this:</p>
+
+<pre><code>let str = &lt;#some string#&gt;
+let subString = str.utf8[ &lt;#some range#&gt; ]
+</code></pre>
+
+<p>That &lt;#some range#> is a problem. The range that the subscript function on <code>String.UTF8View</code> takes is one with <code>String.UTF8View.Index</code> indices. As far as I know, there is no way to create these. The only way I&rsquo;ve found to get substrings is from this <a href="http://stackoverflow.com/a/24046551/1827743">StackOverflow answer from Rob Napier</a>.</p>
+
+<p>Ok, so now we know how to find where the decimal point is, and we know how to get substrings. We can break up the number string we&rsquo;re trying to convert to words (eg. &ldquo;1234.56&rdquo;) into two strings (&ldquo;1234&rdquo; and &ldquo;56&rdquo;). After that, it&rsquo;s just a question of coming up with an algorithm to do the conversion. That&rsquo;s interesting, but it&rsquo;s not Swift-specific.</p>
+
+<p>What is Swift-specific is how to better write the <code>indexOfCharacter</code> function. As I mentioned above, it seems the &ldquo;Swiftier&rdquo; way is to have a global function act on a generic type. Let&rsquo;s look at some examples of such functions that come with Swift:</p>
+
+<pre><code>func countElements&lt;T : _CollectionType&gt;(x: T) -&gt; T.Index.Distance
+</code></pre>
+
+<p><code>countElements</code> is a function whose sole argument should be any collection type, and its return value is a Distance type of Index type of the collection type that was passed in.</p>
+
+<p>Another example:</p>
+
+<pre><code>func contains&lt;S : SequenceType where S.Generator.Element : Equatable&gt;(seq: S, x: S.Generator.Element) -&gt; Bool
+</code></pre>
+
+<p>You can use the <code>contains</code> function, to, for example, check if a string contains a particular character:</p>
+
+<pre><code>var str = "my dollar amount: $99"
+var willBeTrue = contains(str, "$")
+</code></pre>
+
+<p>Notice that this time, we don&rsquo;t care at all that the <code>str</code> is a collection type. <code>contains</code> only cares that its argument is a sequence type.</p>
+
+<pre><code>protocol SequenceType : _Sequence_Type {
+    typealias Generator : GeneratorType
+    func generate() -&gt; Generator
+}
+</code></pre>
+
+<p>And what is <code>_Sequence_Type</code>?</p>
+
+<pre><code>protocol _Sequence_Type : _SequenceType {
+
+    /// A type whose instances can produce the elements of this
+    /// sequence, in order.
+    typealias Generator : GeneratorType
+
+    /// Return a generator over the elements of this sequence.  The
+    /// generator's next element is the first element of the sequence.
+    func generate() -&gt; Generator
+}
+</code></pre>
+
+<p>And what is a <code>GeneratorType</code>?</p>
+
+<pre><code>protocol GeneratorType {
+    /// The type of which `Self` is a generator.
+    typealias Element
+
+    /// If all elements are exhausted, return `nil`.  Otherwise, advance
+    /// to the next element and return it.
+    ///
+    /// Note: after `next()` on an arbitrary generator has returned
+    /// `nil`, subsequent calls to `next()` have unspecified behavior.
+    /// Specific implementations of this protocol are encouraged to
+    /// respond by calling `preconditionFailure("...")`.
+    mutating func next() -&gt; Element?
+}
+</code></pre>
+
+<p>So how can we follow this pattern for our <code>indexOfCharacter(c:)</code> function? Looks like the better would be to write something that works with any <code>_CollectionType</code>, since that is the protocol that enforces having an index:</p>
+
+<pre><code>func indexOfElement&lt;T: _CollectionType&gt;(x: T, e: T.Generator.Element) -&gt; T.Index { ... }
+</code></pre>
+
+<p>If we try to implement this function, we soon hit a problem where we can&rsquo;t iterate over the items in our collection with an index because <code>_CollectionType</code> does not conform to <code>SequenceType</code> (it conforms to <code>_SequenceType</code>). So&hellip; some more investigation and we find this:</p>
+
+<pre><code>protocol CollectionType : _CollectionType, SequenceType {
+    subscript (i: Self.Index) -&gt; Self.Generator.Element { get }
+}
+</code></pre>
+
+<p>So, our function should look like:</p>
+
+<pre><code>func indexOfElement&lt;T: CollectionType&gt;(x: T, e: T.Generator.Element) -&gt; T.Index { ... }
+</code></pre>
+
+<p>Why is it important that we use a type that conforms to <code>SequenceType</code>? Because we need a way of iterating over the collection with an index AND the element at that index, and the function that helps us do that (<code>enumerate</code>) works on a <code>SequenceType</code>. Our final function ends up looking like this:</p>
+
+<pre><code>func indexOfElement&lt;T: CollectionType where T.Generator.Element : Equatable&gt;(x: T, e: T.Generator.Element) -&gt; T.Index? {
+  let length = countElements(x)
+  for (index, element) in enumerate(x) {
+    if element == e {
+      return advance(x.startIndex, index as T.Index.Distance)
+    }
+  }
+
+  return nil
+}
+</code></pre>
+
+<p>Finally, this does what we want. Of course, after going through this song and dance, I find out there is an existing function called <code>find</code>:</p>
+
+<pre><code>func find&lt;C : CollectionType where C.Generator.Element : Equatable&gt;(domain: C, value: C.Generator.Element) -&gt; C.Index?
+</code></pre>
+
+<p>As you can tell from the signature, it does exactly what we tried to achieve above (probably with very similar implementation). So this shows yet another example of how I&rsquo;m trying to shoehorn Swift to become like Objective-C: I would have never thought to look up &lsquo;find&rsquo; but I did look up a few different functions names that seemed intuitive to me from Objective-C: &ldquo;<code>indexOfItem</code>&rdquo;, &ldquo;<code>indexOfElement</code>&rdquo;, &ldquo;<code>indexOf</code>&rdquo;, etc.</p>
+
+<p>It&rsquo;s a new world.</p>
+
+  </div><a class="u-url" href="/programming/2014/09/07/swift-notes-number-1-swift-is-not-objective-c.html" hidden></a>
+</article>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Hirad</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list"></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://www.twitter.com/thehirad"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">thehirad</span></a></li></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p></p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+</body>
+
+</html>
